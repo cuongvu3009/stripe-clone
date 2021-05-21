@@ -23,7 +23,7 @@ const Navbar = () => {
     <nav className='nav' onMouseOver={handleSubmenu}>
       <div className='nav-center'>
         <div className='nav-header'>
-          <img src={logo} alt='' className='nav-logo' />
+          <img src={logo} className='nav-logo' alt='' />
           <button className='btn toggle-btn' onClick={openSidebar}>
             <FaBars />
           </button>
@@ -32,21 +32,21 @@ const Navbar = () => {
         <ul className='nav-links'>
           <li>
             <button className='link-btn' onMouseOver={displaySubmenu}>
-              Products
+              products
             </button>
           </li>
           <li>
             <button className='link-btn' onMouseOver={displaySubmenu}>
-              Developers
+              developers
             </button>
           </li>
           <li>
             <button className='link-btn' onMouseOver={displaySubmenu}>
-              Company
+              company
             </button>
           </li>
         </ul>
-        <button className='btn signin-btn'>Sign in</button>
+        <button className='btn signin-btn'>sign in</button>
       </div>
     </nav>
   );
